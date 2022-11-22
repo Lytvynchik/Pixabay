@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🔍 Pixabay search</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <form name="queryLine">
+        <h2>🔎 Pixabay search</h2>
+        <div class="form__query">
+            <input type="text" id="queryField" name="queryField">
+            <input type="submit" class="search" value="Search">
+        </div>
+        <div class="form__radio">
+            <label class="form__radio__label">
+                Popular
+                <input type="radio" name="check" id="popular" value="popular" checked>
+            </label>
+            <label class="form__radio__label">
+                Fresh
+                <input type="radio" name="check" id="latest" value="latest">
+            </label>
+        </div>
+    </form>
+
+    <div class="container__element">
+        
+    </div>
+
+    <ul class="pagination__wrapper">
+
+    </ul>
+
+    
+    <script src="script.js"></script>
+</body>
+
+</html>
